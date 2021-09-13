@@ -24,17 +24,17 @@ We used Pandas and the Scikit-Learn's to preprocess the dataset in order to comp
 
 - The model was made with an input feature and two hidden layers, First hidden layer had 80 neurons with the ReLU activated function, the second layer had 30 neurons with the ReLU activated function and "sigmoid" was selected for the output layer.
 
-![Module20_Compile_Train_Evaluate](https://user-images.githubusercontent.com/83566868/132606995-abf957d8-2c32-4f65-97dc-6f62428015ff.png)
+![Module19_Compile_Train_Evaluate](https://user-images.githubusercontent.com/83566868/133007344-d29331b7-9c36-4c94-a11e-aeeabdaf75fa.png)
 
 - This model was not able to achieve the target of 75%. The accuracy for this model was 48%. 
 
-![Module20_AccuracyRate](https://user-images.githubusercontent.com/83566868/132607119-bcc09001-9a62-4eaa-b3d2-659a1878c662.png)
+![Module19_AccuracyRate](https://user-images.githubusercontent.com/83566868/133007358-e0ff978a-4a0e-443e-9539-c117eb2ef9cd.png)
 
 - The steps that I took to increase the model performance was changing the "hidden_nodes_layer1" to 120, "hidden_nodes_layer2" to 60 and both were with "tanh" activated. Doing this allowed me to closely achieve the target model performance to 0.7429 = 74%
 
-![Module20_PerformanceChange](https://user-images.githubusercontent.com/83566868/133006403-4f03f611-33a5-4ba5-80d4-5c54e10b0606.png)
+![Module19_PerformanceChange](https://user-images.githubusercontent.com/83566868/133007370-228c1533-d9b4-436a-add0-692a03507091.png)
 
-![Module20_FinalAccuracy](https://user-images.githubusercontent.com/83566868/133006562-4ec9968c-11d2-4be1-82de-df78455df070.png)
+![Module19_FinalAccuracy](https://user-images.githubusercontent.com/83566868/133007380-0a614a98-7f3c-4f94-bfc3-c068ba643fab.png)
 
 ## Summary:
 My final attempt model ended up with an accuracy very close to the ideal target of 75%, coming up short 1%, resulting at 74%. This is a result of adding additonal neurons, hidden layers, and also changing the activation function. My recommnedation for how a different model(s) can or could resolve this type of classification problem is first to have as much data as possible, this will allow us to use the Random Forest Classifier. This type of classification model provides the highest accuracy. The random forest technique also handles big data with numerous variables. 
